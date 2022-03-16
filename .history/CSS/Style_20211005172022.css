@@ -1,0 +1,211 @@
+
+*{
+    margin: 0 auto;
+    padding: 0px;
+    list-style:none;
+    font-family: 'Roboto', sans-serif;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background: rgb(255, 255, 255);
+    width: 90%;
+    color: rgb(0, 0, 0);
+}
+header{
+    width: 100%;
+    margin-top: 10px;
+    background:rgb(233, 233, 233);
+    border-top-left-radius:  18px;
+    border-top-right-radius:  18px;
+    height: 180px;
+}
+    img{
+        float: right;
+        width: 200px;
+    }
+    .title{
+        float: right;
+        width: 60%;
+        margin-top: 20px;
+    }
+    header h1{
+        font-family: 'Abril Fatface', cursive;
+        font-size: 85px;
+        text-align: center;
+        line-height: 60px;  
+        display: block;  
+        color: black;
+    }
+    header h3{
+        font-size: 20px;
+        text-align: center;
+    }
+div.navegador{
+    text-align: center;
+}
+    ul.menu{
+        border-bottom-left-radius: 20px 20px;
+        border-bottom-right-radius: 20px 20px;
+        background: rgb(38, 173, 122);
+        height: 80px;
+        list-style: none;
+        padding: 0;
+        max-width: 10000px;
+    }
+    .menu li a{
+        height: 37px;
+        font-size: 26px;
+        margin-right: 1px;
+        text-decoration: none;
+        color:black;
+        padding: 20px;
+        display: inline-block;  
+    }
+    .menu li {
+        border-right: solid white;
+        display: inline-block;
+        }
+    .menu li a:hover{
+        background: #242323b6;
+        color: white;
+        }
+
+.section{
+    width: 40%;
+    float: right; 
+}
+    /*Formulario Login*/
+    form{
+        background: rgb(33, 107, 97);
+        border-radius: 25px;
+        margin-top: 10px;
+        margin-right:10px;
+        margin-bottom: 10px;
+        height: 500px;
+    }
+        form h3{
+            font-size: 23px;
+            text-align: center;
+            background: rgb(0, 32, 29);
+            height: 30px;
+            padding: 8px;
+            border-top-left-radius: 18px;
+            border-top-right-radius: 18px;
+        }
+        form h4{
+            font-size: 23px;
+            padding: 10px;
+            margin-left: 60px;
+            color: rgb(255, 255, 255);
+
+        }
+        form input{
+            font-size: 15px;
+            width: 55%;
+            padding: 7px;
+            display: inline;
+            border: solid rgb(0, 32, 29);
+            margin-left: 10px;
+        }
+        div.Mascota input {
+            margin-left: 23px;
+        }
+        div.Edad input {
+            margin-left: 61px;
+        }
+        div.Raza input {
+            margin-left: 55px;
+        }
+        div.Fecha input {
+            margin-left: 50px;
+        }
+        div.Hora input {
+            margin-left: 60px;
+        }
+        div.Amo input {
+            margin-left: 50px;
+        }
+        div.button{
+            margin-top: 10px;
+            margin: auto;
+            text-align: center;
+            width: 50%;
+            cursor: pointer;
+        }
+        button{
+            margin-top: 10px;
+            width: 100%;
+            padding: 8px;
+            background: rgb(212, 212, 212);
+            border-radius: 7px;
+            border: solid black;
+            cursor: pointer;
+        }
+        button:hover{
+            background: #000000b6;
+            color: rgb(255, 255, 255);
+        }
+aside{
+    width: 59%;
+    height: 500px;
+    margin-top: 10px;
+    float: left;
+    margin-bottom: 10px;
+}
+    div.Cuidados{
+        border-top-left-radius: 35px;
+        border-top-right-radius: 35px;
+        margin-right: 10px;
+        background: rgba(216, 219, 45, 0.76);
+        overflow:hidden;
+    }
+    /*Centrado Imagenes aside*/
+    #Prueba{
+        float: right;
+    }
+        div.Cuidados img {
+            margin: 20px;
+            width: 20%;
+            border: solid black;
+        }
+        /*Efecto Imagenes aside*/
+        div img:hover{
+            -webkit-transform:scale(0.9);
+            transform:scale(0.9);
+        }
+        div.Cuidados h3{
+            width: 30%;
+            display: inline-block;
+            text-align: center;
+        }
+
+    div.Viajes {
+        border-top-right-radius: 35px;
+        border-top-left-radius: 35px;
+        margin-right: 10px;
+        background: rgba(216, 219, 45, 0.76);
+     }
+        div.Viajes img {
+            width: 220px;
+            margin: 15px;
+            border: solid black;
+        }
+        div.Viajes p{
+            display: inline-block;
+            text-align: center;
+        }
+
+footer{
+    background: black;
+    clear: both;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+    footer p{
+        font-size: 15px;
+        text-align: center;
+        line-height: 15px;
+        color: rgb(121, 119, 119);
+        font-style:italic;
+        padding: 2px;
+    }
